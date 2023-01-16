@@ -1,5 +1,9 @@
-#elemento-1 {color: red; }
+.miDiv {
 
-ul li#elemento-1 {
-    font-size: 2rem;
+    Display: flex;
+    flex-wrap: wrap;
+}
+
+.miDiv_imgs {
+    width: 300px;
 }
