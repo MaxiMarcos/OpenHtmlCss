@@ -1,0 +1,27 @@
+.boton {
+    position: relative;
+}
+
+.boton::before {
+    content: "Pasa por encima";
+
+}
+
+.boton::after {
+    content: "¡Hecho!";
+    visibility: hidden;
+}
+
+.boton:hover::before {
+    background-color: green;
+    color: white;
+    visibility: hidden;
+}
+
+.boton:hover::after {
+
+    background-color: green;
+    color: white;
+    visibility: visible;
+    
+}
