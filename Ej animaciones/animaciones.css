@@ -1,0 +1,25 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn-modern {
+
+    height: 50px;
+    width: 120px;
+    background-color: rgb(47, 112, 9);
+    border: none;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+.btn-modern:hover {
+
+    transform: translateY(-5px);
+    box-shadow: 5px 8px;
+    background-color: rgb(148, 123, 123);
+    color: rgb(8, 39, 143);
+}
